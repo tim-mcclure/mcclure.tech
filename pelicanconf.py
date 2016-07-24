@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Timothy McClure'
 SITENAME = u'mcclure.tech'
 SITEURL = ''
-THEME = u'Flex'
+THEME = u'template/tech'
 PATH = 'content'
 LOAD_CONTENT_CACHE = False
 TIMEZONE = 'America/Denver'

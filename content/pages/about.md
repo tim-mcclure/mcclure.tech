@@ -1,12 +1,11 @@
 Title: About
-#About me
 
-My name is Timothy McClure. I am a self taught web developer and IT worker. I can set you up with a website, your own personal email address, and repair your personal computer or laptop. Just send me an email, and we'll get in touch!
+I'm Timothy McClure. I make websites and fix computers. Need a site? Just email me! Need a computer fixed, do the same!
 
 ##Web Development 
 
-For any web job, I am a one-stop shop for any development needs. I can set you up with a server to host your website and/or your personal email address. I can get you your personal domain, and I can set the site up with an easy to use and easy to change website with WordPress. I can also manage your web site from setup to give you a customizable, personalized website. 
+From design to deployment, I can help any small business or individual get their own website up and running. I can even get you in control of your own site through technologies such as WordPress so that you can control your own site through an easy-to-use interface whenever it comes up. I can help guide you through the entire process to make sure you have a professional, beautiful website that will represent your business or personality in the best possible light. 
 
 ##Computer Repair
 
-I have been building and troubleshooting general personal computer issues for years. Any hardware or software issue, I've got a solution for you. From crashed hard drives to virus infections, I have dealt with it all. 
+I'm also a freelance PC technician, I can take a look, most likely fix whatever's going on and we can move on from there. I can get you PC running like it hasn't in years, from general hardware repairs, to sofware cleaning and optimization.  

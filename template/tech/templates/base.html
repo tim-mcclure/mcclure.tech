@@ -35,7 +35,9 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Bootstrap -->
-    <link href="{{ SITEURL }}/theme/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+    <link href="{{ SITEURL }}/theme/css/main.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -46,10 +48,20 @@
 </head>
 
 <body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
-        </header><!-- /#banner -->
-        <nav id="menu"><ul>
+        <nav class="navbar navbar-inverse navbar-static-top">
+	<div class="container-fluid">
+	<div class="navbar-header">
+	 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	
+	<a class="navbar-brand" href="{{ SITEURL }}/"><span class="glyphicon glyphicon-home"></span> Home</a>
+	</ul>
+	</div>
+	<div class="collapse navbar-collapse" id="myNavbar">
+	<ul class="nav navbar-nav navbar-right">
         {% for title, link in MENUITEMS %}
             <li><a href="{{ link }}">{{ title }}</a></li>
         {% endfor %}
@@ -64,15 +76,20 @@
             {% endfor %}
           {% endif %}
         {% endif %}
-        </ul></nav><!-- /#menu -->
+	
+        </ul></div></div></nav><!-- /#menu -->
+	<div class="container-fluid">
         {% block content %}
         {% endblock %}
+	</div>
+	<nav class="navbar navbar-default navbar-fixed-bottom">
+	<div class="container">
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
                 Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
                 which takes great advantage of <a href="http://python.org">Python</a>.
                 </address><!-- /#about -->
-        </footer><!-- /#contentinfo -->
+        </footer></div></nav><!-- /#contentinfo -->
     <script src="{{ SITEURL }}/theme/bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="{{ SITEURL }}/theme/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
